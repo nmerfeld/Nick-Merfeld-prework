@@ -1,11 +1,6 @@
-document.write(9 * 9);
-document.write("<br>");
-document.write(56 / 12);
-document.write("<br>");
-document.write(281 % 9);
-document.write("<br>");
-document.write(18 / 0);
-document.write("<br>");
-document.write("56" + "92");
-document.write("<br>");
-document.write(42 > 52);
+console.log("9*9 = ", 9 * 9);
+console.log("56 / 12 = ", 56 / 12);
+console.log("281 % 9 = ", 281 % 9);
+console.log("18 / 0 = ", 281 % 9);
+console.log("\"56\" + \"92\" = ", "56" + "92");
+console.log("42 > 52 = ", 42 > 52);

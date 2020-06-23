@@ -5,8 +5,8 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Georgia', Times, Times New Roman, serif;
   color: #4aaaa5;
+  font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 .navbar.navbar-default{
@@ -72,13 +72,15 @@ hr {
   height: 20px;
 }
 
-footer {
-  width: 100%;
+.footer {
   background-color: #666666;
+  bottom: 0;
   height: 50px;
+  position: fixed;
+  width: 100%;
 }
 
-footer h6{
+.footer h6{
   color: #cccccc;
-  padding-top: 30px;
+  padding-top: 10px;
 }
