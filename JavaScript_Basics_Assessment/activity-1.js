@@ -1,0 +1,11 @@
+document.write(9 * 9);
+document.write("<br>");
+document.write(56 / 12);
+document.write("<br>");
+document.write(281 % 9);
+document.write("<br>");
+document.write(18 / 0);
+document.write("<br>");
+document.write("56" + "92");
+document.write("<br>");
+document.write(42 > 52);
