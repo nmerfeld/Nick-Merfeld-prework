@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous"/>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+  <script src="assets/javascript/game.js" type="text/javascript"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Graduate&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+
+    <h1> Hangman: Basketball Style <img src="assets/images/basketball.jpg" height=150px> </h1>
+
+    <div class="row">
+
+      <div class="col-md-6 gameplay">
+        <img src="assets/images/court.jpg"/>
+      </div>
+
+      <div class="col-md-6 gameplay">
+        <h4> Press any key to get started! </h4>
+
+        <h4> <br> Wins </h4>
+        <h4 id="numWins"></h4>
+
+        <h4> <br> Current Word </h4>
+        <h4 id="currWord"> </h4>
+
+        <h4> <br> Number of Guesses Remaining </h4>
+        <h4 id="guessesLeft"></h4>
+
+        <h4> <br> Letters Guessed Already </h4>
+        <h4 id="lettersGuessed"></h4>
+
+        <script>
+          reset();
+          display();
+        </script>
+      </div>
+
+    </div>
+
+  </div>
+</body>
+
+</html>
