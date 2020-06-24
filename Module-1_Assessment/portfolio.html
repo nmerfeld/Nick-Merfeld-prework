@@ -1,41 +1,85 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous"/>
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-</head>
+  <head>
+    <title>Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale-1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 
-<body>
+  </head>
 
-  <nav class="nav navbar-default">
+  <body>
+
+    <nav class="navbar navbar-default navbar-style">
+      <div class="container">
+          <div class="col-xs-2 col-xs-offset-2 header">
+            <h2 >Nick Merfeld</h2>
+          </div>
+          <div class="col-xs-4 col-xs-offset-2 right">
+            <a href="index.html"> About </a>
+            <a href="portfolio.html"> Portfolio </a>
+            <a href="contact.html"> Contact </a>
+          </div>
+      </div>
+    </nav>
+
     <div class="container-fluid">
-      <div class="navbar-header">
-      <a class="navbar-brand" href="#">Nick Merfeld</a>
+      <div class="row">
+        <div class="col-xs-12 col-sm-8 col-sm-offset-2 main">
+          <h2> Portfolio </h2>
+          <hr>
+
+            <div class="row">
+              <div class="col-xs-4 portfolio">
+                <!-- <div class="fill"> -->
+                  <img src="assets/images/bridge.jpg" alt="..." style="width:110%;" class="img-fluid"/>
+                  <div class="image-text"> Hangman </div>
+                <!-- </div> -->
+              </div>
+              <div class="col-xs-4 portfolio">
+                <!-- <div class="card"> -->
+                  <img src="assets/images/flowers.jpg" alt="..."/ style="width:110%;" class="img-fluid">
+                  <div class="image-text"> RPG Game </div>
+                <!-- </div> -->
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-xs-4 portfolio">
+                <!-- <div class="card"> -->
+                  <img src="assets/images/lamps.jpg" alt="..."/ style="width:110%;" class="img-fluid">
+                  <div class="image-text"> Trivia Game </div>
+                <!-- </div> -->
+              </div>
+              <div class="col-xs-4 portfolio">
+                <!-- <div class="card"> -->
+                  <img src="assets/images/lights.jpg" alt="..."/ style="width:110%;" class="img-fluid">
+                  <div class="image-text"> Rutgers Info Widget </div>
+                <!-- </div> -->
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-xs-4 portfolio">
+                <!-- <div class="card"> -->
+                  <img src="assets/images/city.jpg" alt="Responsive image"/ style="width:110%;"  class="img-fluid">
+                  <div class="image-text"> Rock Paper Scissors </div>
+                <!-- </div> -->
+            </div>
+
+          </div>
+        </div>
       </div>
-
-      <ul class="nav navbar-nav navbar-right">
-        <li> <a href="index.html" > About </a> </li>
-        <li> <a href="portfolio.html" > Portfolio </a> </li>
-        <li> <a href="contact.html" > Contact </a> </li>
-      </ul>
     </div>
-  </nav>
 
-  <div class="container col-md-offset-2">
-    <div class="row d-flex justify-content-center">
-
-      <div class="col-md-8">
-        <h2> About Me </h2>
-        <img src="assets/images/tree.jpg" />
-
-        <p> Portfolio </p>
-      </div>
-
+    <div class="footer-margin">
+      <footer>
+        <h6 align="center"> Copyright &copy; </h6>
+      </footer>
     </div>
-  </div>
-</body>
+  </body>
 
-<footer>
-  <h5 align="center"> Copyright &copy <h5>
-</footer>
+</html>
