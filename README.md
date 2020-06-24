@@ -3,6 +3,7 @@
 This project was done for the dev10 prework web bootcamp involving HTML, CSS and JavaScript.  It involved four lesson assessments and 2 module asessments.
 
 Lesson Assessments:
+
 1: HTML and Basic CSS Asssessment:
     This assessment involved a screenshot of a website and creating it using the basic CSS learned up to this point.
     
@@ -16,6 +17,7 @@ Lesson Assessments:
     This assessment had three parts.  The first invoved printing basic math, strings, and boolean logic to the console.  The second had me get user input and alert them of certain logic based on the length of the input. Lastly, the third involved getting user input multiple times, adding it to an array, and printing it to the console.
     
 Module Assessments:
+
 1: Portfolio Site:
     This module assessment involved recreating three web pages from scratch using CSS and HTML.  I used boostrap for much of the UI elements.
     
